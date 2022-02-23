@@ -1,0 +1,5939 @@
+[
+    {
+        "id": "d89221e2.767c2",
+        "type": "tab",
+        "label": "Sensor temperatura",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "61aa412b.149d58",
+        "type": "tab",
+        "label": "Paciente",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "7178402b.1653d",
+        "type": "tab",
+        "label": "Ficha",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "5ae0227b.e338ac",
+        "type": "tab",
+        "label": "Ficha_Medica_act",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c76fa8d.227b3d8",
+        "type": "tab",
+        "label": "AA",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "4525c894.b6e23",
+        "type": "tab",
+        "label": "Antecedentes Familiares",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "608e3f40.526fc8",
+        "type": "tab",
+        "label": "Antecendentes Neonatales",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "7f0fe47f.e965c4",
+        "type": "tab",
+        "label": "Antecedentes Perinatales",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "886d73d1.63b51",
+        "type": "tab",
+        "label": "Consulta Medica",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ed027021.404dc8",
+        "type": "tab",
+        "label": "Cuadro Clínico",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "4a92135b.7efc74",
+        "type": "tab",
+        "label": "Habitos",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "49d0ee63.fe1fd8",
+        "type": "tab",
+        "label": "Historial Clínico",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f80f9166.63f7e8",
+        "type": "tab",
+        "label": "Alta Paciente",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "d1d045c0.1e6c08",
+        "type": "tab",
+        "label": "Alta ficha",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "8b234aea.32948",
+        "type": "tab",
+        "label": "Alta Ficha Médica",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "8701b86b.8ef8d",
+        "type": "tab",
+        "label": "Alta Historial Clinico",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "d73210b9.9de0f8",
+        "type": "tab",
+        "label": "Alta consulta",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c27f91f1.1a769",
+        "type": "tab",
+        "label": "Alta Cuadro Clínico",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "a69b2148.764498",
+        "type": "tab",
+        "label": "Alta habitos",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "fb0b5d08.b47d38",
+        "type": "tab",
+        "label": "Antecedentes familiares",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f7d38616.0d5108",
+        "type": "tab",
+        "label": "Antecedentes neonatales",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "8702c681.a81aa",
+        "type": "tab",
+        "label": "Antecedentes perinatales",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "8306cacd.ee163",
+        "type": "tab",
+        "label": "Alta Apartado Administrativo",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c5a1e418.bedb88",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "5e8f2508.24e74c",
+        "type": "ui_group",
+        "name": "Nombre",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "49207b2a.7c05a4",
+        "type": "ui_group",
+        "name": "Historico- Grupo2",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "64612b36.51d5ac",
+        "type": "ui_group",
+        "name": "[Sensor de Gas MQ-6] Registro",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "8ae16cdd.5f1448",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "35.156.19.218",
+        "port": "1883",
+        "clientid": "Janeth-SIC-1989",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "9b54b950.22ac78",
+        "type": "ui_group",
+        "name": "Fecha - Group",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "3499f20c.4fd16e",
+        "type": "ui_group",
+        "name": "Texto fecha",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "7f833cc1.a9e6ac",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "95858c89.8dac2",
+        "type": "ui_group",
+        "name": "Informacion Recibida - Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "4102c136.209888",
+        "type": "ui_group",
+        "name": "Historico - Group 2",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "16",
+        "collapse": false
+    },
+    {
+        "id": "e6d23854.a005",
+        "type": "ui_group",
+        "name": "Control - Group 3",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "edd3004a.11da88",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "52.59.111.91",
+        "port": "1883",
+        "clientid": "hugo-SIC-5684",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "54e84b69.adcb54",
+        "type": "ui_group",
+        "name": "Ramdom Temperature",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f9ff6e54.b1e71",
+        "type": "ui_group",
+        "name": "Rx",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f370cfb7.9f1c18",
+        "type": "ui_group",
+        "name": "Tx",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "aa3107cbb6f29f72",
+        "type": "mqtt-broker",
+        "name": "LocalHost",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "hugo-sub-nodered",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "4cc29a5b.5c250c",
+        "type": "serial-port",
+        "serialport": "",
+        "serialbaud": "57600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "e4a9a7fa.08c238",
+        "type": "serial-port",
+        "serialport": "/dev/ttyUSB0",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "cc56a819.c3e55",
+        "type": "serial-port",
+        "serialport": "/dev/ttyUSB0",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "b110c7c3.248b8",
+        "type": "ui_group",
+        "name": "Valores de sensores",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f601b5b1.c68788",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "18.193.141.199",
+        "port": "1883",
+        "clientid": "SPO2sensorCP",
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "6c33e57f.4efad4",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "DIEGOROMEROSICUAM-4",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "2",
+        "birthPayload": "Payload",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "2dba7e09.0f4652",
+        "type": "ui_group",
+        "name": "Paciente",
+        "tab": "eb9cd2b5.6b5f68",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "d00e7f9e.9e4328",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "HiDCliP",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "127c3787.18619",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "8175303b.f7621",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "HiDCliP",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "812427ac.175c3",
+        "type": "ui_group",
+        "name": "Ficha",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "689e0d32.6c84fc",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "ficha1",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "caeb9af.095e268",
+        "type": "ui_group",
+        "name": "Ficha",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "6a1474ed.873cc4",
+        "type": "ui_group",
+        "name": "Ficha",
+        "tab": "a7bb9e72.589468",
+        "order": 2,
+        "disp": true,
+        "width": "15",
+        "collapse": false
+    },
+    {
+        "id": "f7b34bab.0df898",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "ficha1",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "a7bb9e72.589468",
+        "type": "ui_tab",
+        "name": "Alta",
+        "icon": "dashboard",
+        "order": 13,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7cbe6bc6.05a494",
+        "type": "ui_group",
+        "name": "Ficha actual",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "feb974d0.de70b8",
+        "type": "ui_group",
+        "name": "Ficha",
+        "tab": "eb9cd2b5.6b5f68",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "55a57dea.02805c",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "127.0.0.1",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "658f003a.316868",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "HiDCliP",
+        "tz": "UTC-6",
+        "charset": "UTF8"
+    },
+    {
+        "id": "67a67ad0.6dd8b4",
+        "type": "ui_group",
+        "name": "Identificacion - Label",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "49a0c15e.5c0e7",
+        "type": "ui_group",
+        "name": "Historial - Label",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "debd08a7.7703a8",
+        "type": "ui_group",
+        "name": "Control - Label",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "461ea886.eda5c",
+        "type": "ui_group",
+        "name": "Fecha Bo",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "738ecd7f.41101c",
+        "type": "ui_group",
+        "name": "Switch2b",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "2c172b9e.fb8484",
+        "type": "ui_group",
+        "name": "Switch3b",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "130d6f40.c37da9",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "ab223aab.9a0b28",
+        "type": "ui_group",
+        "name": "Personas",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "7a75452d.4a624c",
+        "type": "ui_group",
+        "name": "Signos Vitales",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f494e28d.23b0e8",
+        "type": "ui_group",
+        "name": "Group 6",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "185be910.d816bf",
+        "type": "ui_group",
+        "name": "Sintomas",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "5985bd1225719007",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "datos",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "ebcfb998.e4e268",
+        "type": "ui_group",
+        "name": "Ficha Medica Actual",
+        "tab": "eb9cd2b5.6b5f68",
+        "order": 3,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "8fbac30d.6e5218",
+        "type": "ui_group",
+        "name": "Paciente",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "684f4767.78767",
+        "type": "ui_group",
+        "name": "Ficha:",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "6d67e18a.861b1",
+        "type": "ui_group",
+        "name": "Apartado Administrativo",
+        "tab": "eb9cd2b5.6b5f68",
+        "order": 4,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "533c4710.55949",
+        "type": "ui_group",
+        "name": "Paciente",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "13ad3ce.f475443",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "eb9cd2b5.6b5f68",
+        "type": "ui_tab",
+        "name": "HIDCLiP",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "da1ae676.f225a8",
+        "type": "ui_group",
+        "name": "Antecedentes Familiares",
+        "tab": "eb9cd2b5.6b5f68",
+        "order": 5,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "a5f489a9.4f5638",
+        "type": "ui_group",
+        "name": "Antecedentes Neonatales",
+        "tab": "eb9cd2b5.6b5f68",
+        "order": 6,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "c5460234.6c4488",
+        "type": "ui_group",
+        "name": "Antecedentes Perinatales",
+        "tab": "eb9cd2b5.6b5f68",
+        "order": 7,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "b34e63f6.b94b88",
+        "type": "ui_group",
+        "name": "Consulta Médica",
+        "tab": "eb9cd2b5.6b5f68",
+        "order": 8,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "f6a0bb0d.f7142",
+        "type": "ui_group",
+        "name": "Hábitos",
+        "tab": "eb9cd2b5.6b5f68",
+        "order": 11,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "feec2a39.92fe28",
+        "type": "ui_group",
+        "name": "Consulta",
+        "tab": "eb9cd2b5.6b5f68",
+        "order": 9,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "1e63a92e.453e17",
+        "type": "ui_group",
+        "name": "Cuadro Clínico",
+        "tab": "eb9cd2b5.6b5f68",
+        "order": 10,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "eff4c308.a4587",
+        "type": "ui_group",
+        "name": "Historial Clínico",
+        "tab": "eb9cd2b5.6b5f68",
+        "order": 12,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "5f6d4889.2e2cb8",
+        "type": "ui_group",
+        "name": "Identificacion - Label",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "772c94d4.29424c",
+        "type": "ui_group",
+        "name": "Historial - Label",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "65691096.dcaca",
+        "type": "ui_group",
+        "name": "Control - Label",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "87795014.8ea228",
+        "type": "ui_group",
+        "name": "Fecha Bo",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d9a268ca.165bd8",
+        "type": "ui_group",
+        "name": "Switch2b",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1b16b710.bd5e89",
+        "type": "ui_group",
+        "name": "Switch3b",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a7ef3199.d549a8",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "1658c097.8a773f",
+        "type": "ui_group",
+        "name": "Personas",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "3807d1b8.19886e",
+        "type": "ui_group",
+        "name": "Signos Vitales",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b4ad7bcf.498718",
+        "type": "ui_group",
+        "name": "Group 6",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "a36927ba.5fcd78",
+        "type": "ui_group",
+        "name": "Sintomas",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c5ec107a.f8792",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "datos",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "40529665.883868",
+        "type": "ui_group",
+        "name": "Ficha Medica Actual",
+        "tab": "3bd76967.c27406",
+        "order": 3,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "bc27a755.b13f2",
+        "type": "ui_group",
+        "name": "Paciente",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "508b387d.a86548",
+        "type": "ui_group",
+        "name": "Ficha:",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "26df9273.c3eabe",
+        "type": "ui_group",
+        "name": "Apartado Administrativo",
+        "tab": "3bd76967.c27406",
+        "order": 4,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "1707b068.64d2",
+        "type": "ui_group",
+        "name": "Paciente",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a989b504.0ea708",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "3bd76967.c27406",
+        "type": "ui_tab",
+        "name": "HIDCLiP",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "181c031b.e88da5",
+        "type": "ui_group",
+        "name": "Antecedentes Familiares",
+        "tab": "3bd76967.c27406",
+        "order": 5,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "8b457b6e.98ad8",
+        "type": "ui_group",
+        "name": "Antecedentes Neonatales",
+        "tab": "3bd76967.c27406",
+        "order": 6,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "f7294bee.41a51",
+        "type": "ui_group",
+        "name": "Antecedentes Perinatales",
+        "tab": "3bd76967.c27406",
+        "order": 7,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "237b3a0e.919c7e",
+        "type": "ui_group",
+        "name": "Consulta Medica",
+        "tab": "3bd76967.c27406",
+        "order": 8,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "3911c20f.5398b6",
+        "type": "ui_group",
+        "name": "Habitos",
+        "tab": "3bd76967.c27406",
+        "order": 11,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "11f46a63.8e04b6",
+        "type": "ui_group",
+        "name": "Consulta",
+        "tab": "3bd76967.c27406",
+        "order": 9,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "c15d640a.7e53e8",
+        "type": "ui_group",
+        "name": "Cuadro C",
+        "tab": "3bd76967.c27406",
+        "order": 10,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "629cbcd3.1c2fbc",
+        "type": "ui_group",
+        "name": "Hist Clinic",
+        "tab": "3bd76967.c27406",
+        "order": 12,
+        "disp": true,
+        "width": "5",
+        "collapse": false
+    },
+    {
+        "id": "ec9d1fcf.61048",
+        "type": "mqtt in",
+        "z": "61aa412b.149d58",
+        "name": "HidCliP",
+        "topic": "mqtt/rfid/codigo",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "6c33e57f.4efad4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 70,
+        "y": 120,
+        "wires": [
+            [
+                "bab1a010.510df"
+            ]
+        ]
+    },
+    {
+        "id": "dc01dd75.d390f",
+        "type": "function",
+        "z": "61aa412b.149d58",
+        "name": "",
+        "func": "c=msg.payload.codigo;\nmsg.topic = \"select * from pacientes where expediente=\"+c+\";\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 200,
+        "y": 240,
+        "wires": [
+            [
+                "daf2a857.91a0d8"
+            ]
+        ]
+    },
+    {
+        "id": "daf2a857.91a0d8",
+        "type": "mysql",
+        "z": "61aa412b.149d58",
+        "mydb": "d00e7f9e.9e4328",
+        "name": "",
+        "x": 360,
+        "y": 240,
+        "wires": [
+            [
+                "7ccde579.17b12c"
+            ]
+        ]
+    },
+    {
+        "id": "8712ddc.c060b2",
+        "type": "debug",
+        "z": "61aa412b.149d58",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "eb881d8f.b0ad2",
+        "type": "function",
+        "z": "61aa412b.149d58",
+        "name": "",
+        "func": "msg.payload1=msg.payload[0].expediente;\nmsg.payload2=msg.payload[0].nombre;\nmsg.payload3=msg.payload[0].apellido;\nmsg.payload4=msg.payload[0].peso;\nmsg.payload5=msg.payload[0].estatura;\nmsg.payload6=msg.payload[0].nacimiento;\nmsg.payload7=msg.payload[0].gs;\nmsg.payload8=msg.payload[0].actividad;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 240,
+        "wires": [
+            [
+                "8712ddc.c060b2",
+                "b492369b.ce3c88",
+                "4feafb54.5302dc",
+                "1c006c9a.cbf33b",
+                "bd120fe0.18b6e8",
+                "f3e625b5.eeeca8",
+                "ec2692be.c5dcd",
+                "8831ad37.97f53",
+                "531df686.1a2458"
+            ]
+        ]
+    },
+    {
+        "id": "bab1a010.510df",
+        "type": "json",
+        "z": "61aa412b.149d58",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 60,
+        "y": 240,
+        "wires": [
+            [
+                "dc01dd75.d390f"
+            ]
+        ]
+    },
+    {
+        "id": "7ccde579.17b12c",
+        "type": "json",
+        "z": "61aa412b.149d58",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 510,
+        "y": 240,
+        "wires": [
+            [
+                "eb881d8f.b0ad2"
+            ]
+        ]
+    },
+    {
+        "id": "b492369b.ce3c88",
+        "type": "ui_text",
+        "z": "61aa412b.149d58",
+        "group": "2dba7e09.0f4652",
+        "order": 1,
+        "width": "5",
+        "height": "1",
+        "name": "",
+        "label": "Numero de expediente:",
+        "format": "{{msg.payload1}}",
+        "layout": "row-left",
+        "x": 990,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "4feafb54.5302dc",
+        "type": "ui_text",
+        "z": "61aa412b.149d58",
+        "group": "2dba7e09.0f4652",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nombre:",
+        "format": "{{msg.payload2}}",
+        "layout": "row-left",
+        "x": 940,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "1c006c9a.cbf33b",
+        "type": "ui_text",
+        "z": "61aa412b.149d58",
+        "group": "2dba7e09.0f4652",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Apellido",
+        "format": "{{msg.payload3}}",
+        "layout": "row-left",
+        "x": 940,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "bd120fe0.18b6e8",
+        "type": "ui_text",
+        "z": "61aa412b.149d58",
+        "group": "2dba7e09.0f4652",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Peso:",
+        "format": "{{msg.payload4}}",
+        "layout": "row-left",
+        "x": 930,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "f3e625b5.eeeca8",
+        "type": "ui_text",
+        "z": "61aa412b.149d58",
+        "group": "2dba7e09.0f4652",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Estatura: ",
+        "format": "{{msg.payload5}}",
+        "layout": "row-left",
+        "x": 940,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "ec2692be.c5dcd",
+        "type": "ui_text",
+        "z": "61aa412b.149d58",
+        "group": "2dba7e09.0f4652",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Fecha de nacimiento: ",
+        "format": "{{msg.payload6}}",
+        "layout": "row-left",
+        "x": 980,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8831ad37.97f53",
+        "type": "ui_text",
+        "z": "61aa412b.149d58",
+        "group": "2dba7e09.0f4652",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Gs",
+        "format": "{{msg.payload7}}",
+        "layout": "row-left",
+        "x": 930,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "531df686.1a2458",
+        "type": "ui_text",
+        "z": "61aa412b.149d58",
+        "group": "2dba7e09.0f4652",
+        "order": 14,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Actividad: ",
+        "format": "{{msg.payload8}}",
+        "layout": "row-left",
+        "x": 940,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "7d1cb008.12f318",
+        "type": "mqtt in",
+        "z": "7178402b.1653d",
+        "name": "HiDCliP",
+        "topic": "mqtt/rfid/codigo",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "6c33e57f.4efad4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 70,
+        "y": 140,
+        "wires": [
+            [
+                "d4eb76c5.9fd968"
+            ]
+        ]
+    },
+    {
+        "id": "3dd8c03f.3de5d",
+        "type": "function",
+        "z": "7178402b.1653d",
+        "name": "",
+        "func": "c=msg.payload.codigo;\nmsg.topic = \"select * from ficha where expediente=\"+c+\";\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 280,
+        "wires": [
+            [
+                "c35acf47.46529"
+            ]
+        ]
+    },
+    {
+        "id": "c35acf47.46529",
+        "type": "mysql",
+        "z": "7178402b.1653d",
+        "mydb": "658f003a.316868",
+        "name": "",
+        "x": 380,
+        "y": 180,
+        "wires": [
+            [
+                "e8231c16.0e6468"
+            ]
+        ]
+    },
+    {
+        "id": "6727456b.65376c",
+        "type": "debug",
+        "z": "7178402b.1653d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "f16b09e8.939558",
+        "type": "function",
+        "z": "7178402b.1653d",
+        "name": "",
+        "func": "msg.payload1=msg.payload[0].expediente;\nmsg.payload2=msg.payload[0].nss;\nmsg.payload3=msg.payload[0].visitas;\nmsg.payload4=msg.payload[0].SOS;\nmsg.payload5=msg.payload[0].discapacidad;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 280,
+        "wires": [
+            [
+                "6727456b.65376c",
+                "45d8a837.41774",
+                "5e91ba6c.0f0684",
+                "3f7d16f8.4add92",
+                "b5f23c86.9d77c8",
+                "d3a87b66.c5c608"
+            ]
+        ]
+    },
+    {
+        "id": "d4eb76c5.9fd968",
+        "type": "json",
+        "z": "7178402b.1653d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "3dd8c03f.3de5d"
+            ]
+        ]
+    },
+    {
+        "id": "e8231c16.0e6468",
+        "type": "json",
+        "z": "7178402b.1653d",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 510,
+        "y": 280,
+        "wires": [
+            [
+                "f16b09e8.939558"
+            ]
+        ]
+    },
+    {
+        "id": "45d8a837.41774",
+        "type": "ui_text",
+        "z": "7178402b.1653d",
+        "group": "feb974d0.de70b8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Numero de expediente:",
+        "format": "{{msg.payload1}}",
+        "layout": "row-left",
+        "x": 910,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "5e91ba6c.0f0684",
+        "type": "ui_text",
+        "z": "7178402b.1653d",
+        "group": "feb974d0.de70b8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Numero de seguro social: ",
+        "format": "{{msg.payload2}}",
+        "layout": "row-left",
+        "x": 910,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "3f7d16f8.4add92",
+        "type": "ui_text",
+        "z": "7178402b.1653d",
+        "group": "feb974d0.de70b8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Total de visitas:",
+        "format": "{{msg.payload3}}",
+        "layout": "row-left",
+        "x": 880,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "b5f23c86.9d77c8",
+        "type": "ui_text",
+        "z": "7178402b.1653d",
+        "group": "feb974d0.de70b8",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "SOS: ",
+        "format": "{{msg.payload4}}",
+        "layout": "row-left",
+        "x": 850,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "d3a87b66.c5c608",
+        "type": "ui_text",
+        "z": "7178402b.1653d",
+        "group": "feb974d0.de70b8",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Discapacidad: ",
+        "format": "{{msg.payload5}}",
+        "layout": "row-left",
+        "x": 880,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "f6812da9.33ac8",
+        "type": "mqtt in",
+        "z": "5ae0227b.e338ac",
+        "name": "HiDCliP",
+        "topic": "mqtt/rfid/codigo",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "6c33e57f.4efad4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 90,
+        "y": 140,
+        "wires": [
+            [
+                "de60b765.ab2cc"
+            ]
+        ]
+    },
+    {
+        "id": "9fd5d023.36be9",
+        "type": "function",
+        "z": "5ae0227b.e338ac",
+        "name": "",
+        "func": "c=msg.payload.codigo;\nmsg.topic = \"select * from ficha_med_act where expediente=\"+c+\";\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 280,
+        "wires": [
+            [
+                "d720af1f.de193"
+            ]
+        ]
+    },
+    {
+        "id": "d720af1f.de193",
+        "type": "mysql",
+        "z": "5ae0227b.e338ac",
+        "mydb": "658f003a.316868",
+        "name": "",
+        "x": 400,
+        "y": 400,
+        "wires": [
+            [
+                "d6bb7874.32a918"
+            ]
+        ]
+    },
+    {
+        "id": "4616ad86.dc66ac",
+        "type": "function",
+        "z": "5ae0227b.e338ac",
+        "name": "",
+        "func": "msg.payload1=msg.payload[0].expediente;\nmsg.payload2=msg.payload[0].tratamiento;\nmsg.payload3=msg.payload[0].fecha;\nmsg.payload4=msg.payload[0].peso;\nmsg.payload5=msg.payload[0].estatura;\nmsg.payload6=msg.payload[0].pulso;\nmsg.payload7=msg.payload[0].tension;\nmsg.payload8=msg.payload[0].frecard;\nmsg.payload9=msg.payload[0].frecresp;\nmsg.payload10=msg.payload[0].temp;\nmsg.payload11=msg.payload[0].sat;\nmsg.payload12=msg.payload[0].sintomas;\nmsg.payload13=msg.payload[0].medicamento;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 280,
+        "wires": [
+            [
+                "4efa9b10.aa125c",
+                "3e977cc5.8b4254",
+                "691083ed.dfa3b4",
+                "32166b2a.6afc7c",
+                "8926f883.e070c8",
+                "19313e72.86af42",
+                "bbc7cc2.40e1d3",
+                "a531fb71.d50a88",
+                "9fa50aa8.96178",
+                "5cc1651.b266c9c",
+                "82ab74e5.6c666",
+                "c7fd2879.edc5d8",
+                "a4ebf4cc.4c0058",
+                "b695b1fe.a75fb"
+            ]
+        ]
+    },
+    {
+        "id": "de60b765.ab2cc",
+        "type": "json",
+        "z": "5ae0227b.e338ac",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 150,
+        "y": 280,
+        "wires": [
+            [
+                "9fd5d023.36be9"
+            ]
+        ]
+    },
+    {
+        "id": "d6bb7874.32a918",
+        "type": "json",
+        "z": "5ae0227b.e338ac",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 530,
+        "y": 280,
+        "wires": [
+            [
+                "4616ad86.dc66ac"
+            ]
+        ]
+    },
+    {
+        "id": "a4ebf4cc.4c0058",
+        "type": "debug",
+        "z": "5ae0227b.e338ac",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "4efa9b10.aa125c",
+        "type": "ui_text",
+        "z": "5ae0227b.e338ac",
+        "group": "ebcfb998.e4e268",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Tratamiento: ",
+        "format": "{{msg.payload2}}",
+        "layout": "row-left",
+        "x": 930,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "3e977cc5.8b4254",
+        "type": "ui_text",
+        "z": "5ae0227b.e338ac",
+        "group": "ebcfb998.e4e268",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "fecha: ",
+        "format": "{{msg.payload3}}",
+        "layout": "row-left",
+        "x": 910,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "691083ed.dfa3b4",
+        "type": "ui_text",
+        "z": "5ae0227b.e338ac",
+        "group": "ebcfb998.e4e268",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Peso: ",
+        "format": "{{msg.payload4}}",
+        "layout": "row-left",
+        "x": 910,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "32166b2a.6afc7c",
+        "type": "ui_text",
+        "z": "5ae0227b.e338ac",
+        "group": "ebcfb998.e4e268",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Estatura: ",
+        "format": "{{msg.payload5}}",
+        "layout": "row-left",
+        "x": 920,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "8926f883.e070c8",
+        "type": "ui_text",
+        "z": "5ae0227b.e338ac",
+        "group": "ebcfb998.e4e268",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Pulso: ",
+        "format": "{{msg.payload6}}",
+        "layout": "row-left",
+        "x": 910,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "19313e72.86af42",
+        "type": "ui_text",
+        "z": "5ae0227b.e338ac",
+        "group": "ebcfb998.e4e268",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Tension: ",
+        "format": "{{msg.payload7}}",
+        "layout": "row-left",
+        "x": 1100,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "bbc7cc2.40e1d3",
+        "type": "ui_text",
+        "z": "5ae0227b.e338ac",
+        "group": "ebcfb998.e4e268",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Frecuencia Cardiaca: ",
+        "format": "{{msg.payload8}}",
+        "layout": "row-left",
+        "x": 1140,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a531fb71.d50a88",
+        "type": "ui_text",
+        "z": "5ae0227b.e338ac",
+        "group": "ebcfb998.e4e268",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Frecuencia Respiratoria: ",
+        "format": "{{msg.payload9}}",
+        "layout": "row-left",
+        "x": 1150,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "9fa50aa8.96178",
+        "type": "ui_text",
+        "z": "5ae0227b.e338ac",
+        "group": "ebcfb998.e4e268",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Sat: ",
+        "format": "{{msg.payload11}}",
+        "layout": "row-left",
+        "x": 1090,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "5cc1651.b266c9c",
+        "type": "ui_text",
+        "z": "5ae0227b.e338ac",
+        "group": "ebcfb998.e4e268",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Sintomas: ",
+        "format": "{{msg.payload12}}",
+        "layout": "row-left",
+        "x": 1360,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "82ab74e5.6c666",
+        "type": "ui_text",
+        "z": "5ae0227b.e338ac",
+        "group": "ebcfb998.e4e268",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Medicamento: ",
+        "format": "{{msg.payload13}}",
+        "layout": "row-left",
+        "x": 1380,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b30b12db.0ecae",
+        "type": "mqtt in",
+        "z": "c76fa8d.227b3d8",
+        "name": "HiDCliP",
+        "topic": "mqtt/rfid/codigo",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "6c33e57f.4efad4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 50,
+        "y": 100,
+        "wires": [
+            [
+                "22f603e4.4345f4"
+            ]
+        ]
+    },
+    {
+        "id": "cea19b4b.2783a8",
+        "type": "function",
+        "z": "c76fa8d.227b3d8",
+        "name": "",
+        "func": "c=msg.payload.codigo;\nmsg.topic = \"select * from AA where expediente=\"+c+\";\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 240,
+        "wires": [
+            [
+                "b07fb056.3f86a8"
+            ]
+        ]
+    },
+    {
+        "id": "b07fb056.3f86a8",
+        "type": "mysql",
+        "z": "c76fa8d.227b3d8",
+        "mydb": "658f003a.316868",
+        "name": "",
+        "x": 380,
+        "y": 240,
+        "wires": [
+            [
+                "4c011e33.1c8af"
+            ]
+        ]
+    },
+    {
+        "id": "fde80c08.f896d",
+        "type": "function",
+        "z": "c76fa8d.227b3d8",
+        "name": "",
+        "func": "msg.payload1=msg.payload[0].cc;\nmsg.payload2=msg.payload[0].SOS;\nmsg.payload3=msg.payload[0].expediente;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 240,
+        "wires": [
+            [
+                "ec2031cc.338cf",
+                "662026fa.122a1",
+                "2ed6c8b6.66c07",
+                "1479f060.ce43e8"
+            ]
+        ]
+    },
+    {
+        "id": "22f603e4.4345f4",
+        "type": "json",
+        "z": "c76fa8d.227b3d8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 110,
+        "y": 240,
+        "wires": [
+            [
+                "cea19b4b.2783a8"
+            ]
+        ]
+    },
+    {
+        "id": "4c011e33.1c8af",
+        "type": "json",
+        "z": "c76fa8d.227b3d8",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 490,
+        "y": 240,
+        "wires": [
+            [
+                "fde80c08.f896d"
+            ]
+        ]
+    },
+    {
+        "id": "2ed6c8b6.66c07",
+        "type": "debug",
+        "z": "c76fa8d.227b3d8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "ec2031cc.338cf",
+        "type": "ui_text",
+        "z": "c76fa8d.227b3d8",
+        "group": "6d67e18a.861b1",
+        "order": 0,
+        "width": "10",
+        "height": "2",
+        "name": "",
+        "label": "Contacto de Emergencia: ",
+        "format": "{{msg.payload2}}",
+        "layout": "row-left",
+        "x": 890,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "662026fa.122a1",
+        "type": "ui_text",
+        "z": "c76fa8d.227b3d8",
+        "group": "6d67e18a.861b1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Carta de Consentimiento: ",
+        "format": "{{msg.payload1}}",
+        "layout": "row-left",
+        "x": 890,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "50f3b721.694a58",
+        "type": "mqtt in",
+        "z": "4525c894.b6e23",
+        "name": "HiDCliP",
+        "topic": "mqtt/rfid/codigo",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "6c33e57f.4efad4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 50,
+        "y": 140,
+        "wires": [
+            [
+                "c76bf243.cab8f8"
+            ]
+        ]
+    },
+    {
+        "id": "9680ec31.4129a",
+        "type": "function",
+        "z": "4525c894.b6e23",
+        "name": "",
+        "func": "c=msg.payload.codigo;\nmsg.topic = \"select * from ant_familiares where expediente=\"+c+\";\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 280,
+        "wires": [
+            [
+                "d3f0d4a4.ecc818"
+            ]
+        ]
+    },
+    {
+        "id": "d3f0d4a4.ecc818",
+        "type": "mysql",
+        "z": "4525c894.b6e23",
+        "mydb": "658f003a.316868",
+        "name": "",
+        "x": 380,
+        "y": 280,
+        "wires": [
+            [
+                "ae50f36e.4d9e5"
+            ]
+        ]
+    },
+    {
+        "id": "48503de1.261fa4",
+        "type": "function",
+        "z": "4525c894.b6e23",
+        "name": "",
+        "func": "msg.payload1=msg.payload[0].a;\nmsg.payload2=msg.payload[0].b;\nmsg.payload3=msg.payload[0].c;\nmsg.payload4=msg.payload[0].d;\nmsg.payload5=msg.payload[0].e;\nmsg.payload6=msg.payload[0].f;\nmsg.payload7=msg.payload[0].g;\nmsg.payload8=msg.payload[0].h;\nmsg.payload9=msg.payload[0].expediente;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 280,
+        "wires": [
+            [
+                "bbfeef07.65dd",
+                "4833c837.283ee8",
+                "cba342b.5452d4",
+                "46e84292.76d50c",
+                "60aaa6cc.0b6e8",
+                "2bbd011f.c34e96",
+                "2fd7a2e9.0a792e",
+                "93fa84ff.0ec17",
+                "ede03fb3.4c3058",
+                "7b5ff868.40fc5"
+            ]
+        ]
+    },
+    {
+        "id": "c76bf243.cab8f8",
+        "type": "json",
+        "z": "4525c894.b6e23",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 110,
+        "y": 280,
+        "wires": [
+            [
+                "9680ec31.4129a"
+            ]
+        ]
+    },
+    {
+        "id": "ae50f36e.4d9e5",
+        "type": "json",
+        "z": "4525c894.b6e23",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 490,
+        "y": 280,
+        "wires": [
+            [
+                "48503de1.261fa4"
+            ]
+        ]
+    },
+    {
+        "id": "7b5ff868.40fc5",
+        "type": "debug",
+        "z": "4525c894.b6e23",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5f7ebc4f.3f196c",
+        "type": "mqtt in",
+        "z": "608e3f40.526fc8",
+        "name": "HiDCliP",
+        "topic": "mqtt/rfid/codigo",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "6c33e57f.4efad4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 50,
+        "y": 140,
+        "wires": [
+            [
+                "b3d8257c.13e36"
+            ]
+        ]
+    },
+    {
+        "id": "14407b81.eb192c",
+        "type": "function",
+        "z": "608e3f40.526fc8",
+        "name": "",
+        "func": "c=msg.payload.codigo;\nmsg.topic = \"select * from ant_neonatales where expediente=\"+c+\";\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 280,
+        "wires": [
+            [
+                "dad8cce8.b00da"
+            ]
+        ]
+    },
+    {
+        "id": "dad8cce8.b00da",
+        "type": "mysql",
+        "z": "608e3f40.526fc8",
+        "mydb": "658f003a.316868",
+        "name": "",
+        "x": 380,
+        "y": 280,
+        "wires": [
+            [
+                "840bdb95.51d11"
+            ]
+        ]
+    },
+    {
+        "id": "7e9a5d6.20130a4",
+        "type": "function",
+        "z": "608e3f40.526fc8",
+        "name": "",
+        "func": "msg.payload1=msg.payload[0].COLOR;\nmsg.payload2=msg.payload[0].FC;\nmsg.payload3=msg.payload[0].IRRATIBILIDADREFLEJA;\nmsg.payload4=msg.payload[0].TONOMUSCULAR;\nmsg.payload5=msg.payload[0].RESPIRACION;\nmsg.payload6=msg.payload[0].expediente;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 280,
+        "wires": [
+            [
+                "9b0a165a.74b938",
+                "4c4043dc.89e774",
+                "de0df1a4.1ab8f8",
+                "9d7c5fb2.69a66",
+                "b14a0f72.8f4b18",
+                "ec8ada26.95676",
+                "4fbc0c10.99d7ec"
+            ]
+        ]
+    },
+    {
+        "id": "b3d8257c.13e36",
+        "type": "json",
+        "z": "608e3f40.526fc8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 110,
+        "y": 280,
+        "wires": [
+            [
+                "14407b81.eb192c"
+            ]
+        ]
+    },
+    {
+        "id": "840bdb95.51d11",
+        "type": "json",
+        "z": "608e3f40.526fc8",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 490,
+        "y": 280,
+        "wires": [
+            [
+                "7e9a5d6.20130a4"
+            ]
+        ]
+    },
+    {
+        "id": "4fbc0c10.99d7ec",
+        "type": "debug",
+        "z": "608e3f40.526fc8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "bbfeef07.65dd",
+        "type": "ui_text",
+        "z": "4525c894.b6e23",
+        "group": "da1ae676.f225a8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "a: ",
+        "format": "{{msg.payload1}}",
+        "layout": "row-left",
+        "x": 910,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "4833c837.283ee8",
+        "type": "ui_text",
+        "z": "4525c894.b6e23",
+        "group": "da1ae676.f225a8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "b: ",
+        "format": "{{msg.payload2}}",
+        "layout": "row-left",
+        "x": 910,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "cba342b.5452d4",
+        "type": "ui_text",
+        "z": "4525c894.b6e23",
+        "group": "da1ae676.f225a8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "c: ",
+        "format": "{{msg.payload3}}",
+        "layout": "row-left",
+        "x": 910,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "46e84292.76d50c",
+        "type": "ui_text",
+        "z": "4525c894.b6e23",
+        "group": "da1ae676.f225a8",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "d:",
+        "format": "{{msg.payload4}}",
+        "layout": "row-left",
+        "x": 910,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "60aaa6cc.0b6e8",
+        "type": "ui_text",
+        "z": "4525c894.b6e23",
+        "group": "da1ae676.f225a8",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "e:",
+        "format": "{{msg.payload5}}",
+        "layout": "row-left",
+        "x": 910,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "2bbd011f.c34e96",
+        "type": "ui_text",
+        "z": "4525c894.b6e23",
+        "group": "da1ae676.f225a8",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "f: ",
+        "format": "{{msg.payload6}}",
+        "layout": "row-left",
+        "x": 910,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "2fd7a2e9.0a792e",
+        "type": "ui_text",
+        "z": "4525c894.b6e23",
+        "group": "da1ae676.f225a8",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "g: ",
+        "format": "{{msg.payload7}}",
+        "layout": "row-left",
+        "x": 910,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "93fa84ff.0ec17",
+        "type": "ui_text",
+        "z": "4525c894.b6e23",
+        "group": "da1ae676.f225a8",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "h:",
+        "format": "{{msg.payload7}}",
+        "layout": "row-left",
+        "x": 910,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "9b0a165a.74b938",
+        "type": "ui_text",
+        "z": "608e3f40.526fc8",
+        "group": "a5f489a9.4f5638",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "COLOR: ",
+        "format": "{{msg.payload1}}",
+        "layout": "row-spread",
+        "x": 820,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "4c4043dc.89e774",
+        "type": "ui_text",
+        "z": "608e3f40.526fc8",
+        "group": "a5f489a9.4f5638",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "FC: ",
+        "format": "{{msg.payload2}}",
+        "layout": "row-spread",
+        "x": 810,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "de0df1a4.1ab8f8",
+        "type": "ui_text",
+        "z": "608e3f40.526fc8",
+        "group": "a5f489a9.4f5638",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "IRRATIBILIDADREFLEJA: ",
+        "format": "{{msg.payload3}}",
+        "layout": "row-spread",
+        "x": 880,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "9d7c5fb2.69a66",
+        "type": "ui_text",
+        "z": "608e3f40.526fc8",
+        "group": "a5f489a9.4f5638",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "TONOMUSCULAR:",
+        "format": "{{msg.payload4}}",
+        "layout": "row-spread",
+        "x": 850,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "b14a0f72.8f4b18",
+        "type": "ui_text",
+        "z": "608e3f40.526fc8",
+        "group": "a5f489a9.4f5638",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "RESPIRACION:",
+        "format": "{{msg.payload5}}",
+        "layout": "row-spread",
+        "x": 840,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "d82e53de.88ac2",
+        "type": "mqtt in",
+        "z": "7f0fe47f.e965c4",
+        "name": "HiDCliP",
+        "topic": "mqtt/rfid/codigo",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "6c33e57f.4efad4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 50,
+        "y": 120,
+        "wires": [
+            [
+                "343ac117.cff8b6"
+            ]
+        ]
+    },
+    {
+        "id": "3ab602e2.86891e",
+        "type": "function",
+        "z": "7f0fe47f.e965c4",
+        "name": "",
+        "func": "c=msg.payload.codigo;\nmsg.topic = \"select * from ant_perinatales where expediente=\"+c+\";\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 260,
+        "wires": [
+            [
+                "72cf9d37.1ea7f4"
+            ]
+        ]
+    },
+    {
+        "id": "72cf9d37.1ea7f4",
+        "type": "mysql",
+        "z": "7f0fe47f.e965c4",
+        "mydb": "658f003a.316868",
+        "name": "",
+        "x": 380,
+        "y": 260,
+        "wires": [
+            [
+                "a2082356.4ed62"
+            ]
+        ]
+    },
+    {
+        "id": "cbe0d974.8111f",
+        "type": "function",
+        "z": "7f0fe47f.e965c4",
+        "name": "",
+        "func": "msg.payload1=msg.payload[0].Antecedentes_negados;\nmsg.payload2=msg.payload[0].Ultimo_ciclo_menstrual;\nmsg.payload3=msg.payload[0].Duración_ciclo;\nmsg.payload4=msg.payload[0].Concepción;\nmsg.payload5=msg.payload[0].Duracion;\nmsg.payload6=msg.payload[0].Lugar;\nmsg.payload7=msg.payload[0].Peso;\nmsg.payload8=msg.payload[0].Necesidad_tipo_Anestesia;\nmsg.payload9=msg.payload[0].placenta;\nmsg.payload10=msg.payload[0].expediente;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 260,
+        "wires": [
+            [
+                "d3f1433b.5412a",
+                "3fa75ffa.1579d",
+                "502cc7cc.58da5",
+                "14fb3cab.acd5c3",
+                "aa43ed5a.4d78e",
+                "93b5a9c0.889ae8",
+                "21581e9a.1bc472",
+                "20ae6195.ce327e",
+                "bc7248b7.26313",
+                "7471437b.74c5a4",
+                "2e2c8cb.38023f4"
+            ]
+        ]
+    },
+    {
+        "id": "343ac117.cff8b6",
+        "type": "json",
+        "z": "7f0fe47f.e965c4",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 110,
+        "y": 260,
+        "wires": [
+            [
+                "3ab602e2.86891e"
+            ]
+        ]
+    },
+    {
+        "id": "a2082356.4ed62",
+        "type": "json",
+        "z": "7f0fe47f.e965c4",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 490,
+        "y": 260,
+        "wires": [
+            [
+                "cbe0d974.8111f"
+            ]
+        ]
+    },
+    {
+        "id": "21581e9a.1bc472",
+        "type": "debug",
+        "z": "7f0fe47f.e965c4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "d3f1433b.5412a",
+        "type": "ui_text",
+        "z": "7f0fe47f.e965c4",
+        "group": "c5460234.6c4488",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Antecedentes negados",
+        "format": "{{msg.payload1}}",
+        "layout": "row-spread",
+        "x": 860,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "3fa75ffa.1579d",
+        "type": "ui_text",
+        "z": "7f0fe47f.e965c4",
+        "group": "c5460234.6c4488",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Último ciclo menstrual",
+        "format": "{{msg.payload2}}",
+        "layout": "row-spread",
+        "x": 860,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "502cc7cc.58da5",
+        "type": "ui_text",
+        "z": "7f0fe47f.e965c4",
+        "group": "c5460234.6c4488",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Duración del ciclo:",
+        "format": "{{msg.payload3}}",
+        "layout": "row-spread",
+        "x": 850,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "14fb3cab.acd5c3",
+        "type": "ui_text",
+        "z": "7f0fe47f.e965c4",
+        "group": "c5460234.6c4488",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Concepción",
+        "format": "{{msg.payload4}}",
+        "layout": "row-spread",
+        "x": 830,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "aa43ed5a.4d78e",
+        "type": "ui_text",
+        "z": "7f0fe47f.e965c4",
+        "group": "c5460234.6c4488",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Duración:",
+        "format": "{{msg.payload5}}",
+        "layout": "row-spread",
+        "x": 820,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "dc8467d7.0cc088",
+        "type": "mqtt in",
+        "z": "886d73d1.63b51",
+        "name": "HiDCliP",
+        "topic": "mqtt/rfid/codigo",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "6c33e57f.4efad4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 270,
+        "y": 120,
+        "wires": [
+            [
+                "1942fc7d.b1bec4"
+            ]
+        ]
+    },
+    {
+        "id": "3f01018.dd476fe",
+        "type": "function",
+        "z": "886d73d1.63b51",
+        "name": "",
+        "func": "c=msg.payload.codigo;\nmsg.topic = \"select * from consulta where expediente=\"+c+\";\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 260,
+        "wires": [
+            [
+                "3f6035e8.19be92"
+            ]
+        ]
+    },
+    {
+        "id": "3f6035e8.19be92",
+        "type": "mysql",
+        "z": "886d73d1.63b51",
+        "mydb": "658f003a.316868",
+        "name": "",
+        "x": 400,
+        "y": 260,
+        "wires": [
+            [
+                "b7343f81.69bf7"
+            ]
+        ]
+    },
+    {
+        "id": "4415ba3f.fdda44",
+        "type": "function",
+        "z": "886d73d1.63b51",
+        "name": "",
+        "func": "msg.payload1=msg.payload[0].fecha;\nmsg.payload2=msg.payload[0].peso;\nmsg.payload3=msg.payload[0].estatura;\nmsg.payload4=msg.payload[0].pulso;\nmsg.payload5=msg.payload[0].tension;\nmsg.payload6=msg.payload[0].frecard;\nmsg.payload7=msg.payload[0].frecresp;\nmsg.payload8=msg.payload[0].temp;\nmsg.payload9=msg.payload[0].sat;\nmsg.payload10=msg.payload[0].sintomas;\nmsg.payload11=msg.payload[0].medicamento;\nmsg.payload12=msg.payload[0].expediente;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 260,
+        "wires": [
+            [
+                "548999.c7a06668",
+                "32cd2f51.18b638",
+                "fdfc5112.16f21",
+                "23d6a8bb.9f351",
+                "4c4887b7.5c78a",
+                "c35ec48c.d0dd6",
+                "92195b9d.588188",
+                "d4b257a9.bd6f5",
+                "95d3746c.b43ad8",
+                "aa3a0ee.623df7",
+                "dbdcd172.8f73a8",
+                "136a5046.12d878",
+                "9c39205.f69756"
+            ]
+        ]
+    },
+    {
+        "id": "1942fc7d.b1bec4",
+        "type": "json",
+        "z": "886d73d1.63b51",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 470,
+        "y": 120,
+        "wires": [
+            [
+                "3f01018.dd476fe"
+            ]
+        ]
+    },
+    {
+        "id": "b7343f81.69bf7",
+        "type": "json",
+        "z": "886d73d1.63b51",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 510,
+        "y": 260,
+        "wires": [
+            [
+                "4415ba3f.fdda44"
+            ]
+        ]
+    },
+    {
+        "id": "dbdcd172.8f73a8",
+        "type": "debug",
+        "z": "886d73d1.63b51",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "548999.c7a06668",
+        "type": "ui_text",
+        "z": "886d73d1.63b51",
+        "group": "b34e63f6.b94b88",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "fecha: ",
+        "format": "{{msg.payload1}}",
+        "layout": "row-left",
+        "x": 890,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "32cd2f51.18b638",
+        "type": "ui_text",
+        "z": "886d73d1.63b51",
+        "group": "b34e63f6.b94b88",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Peso: ",
+        "format": "{{msg.payload2}}",
+        "layout": "row-left",
+        "x": 890,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "fdfc5112.16f21",
+        "type": "ui_text",
+        "z": "886d73d1.63b51",
+        "group": "b34e63f6.b94b88",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Estatura: ",
+        "format": "{{msg.payload3}}",
+        "layout": "row-left",
+        "x": 900,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "23d6a8bb.9f351",
+        "type": "ui_text",
+        "z": "886d73d1.63b51",
+        "group": "b34e63f6.b94b88",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Pulso: ",
+        "format": "{{msg.payload4}}",
+        "layout": "row-left",
+        "x": 890,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "4c4887b7.5c78a",
+        "type": "ui_text",
+        "z": "886d73d1.63b51",
+        "group": "b34e63f6.b94b88",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Tension: ",
+        "format": "{{msg.payload5}}",
+        "layout": "row-left",
+        "x": 1080,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "c35ec48c.d0dd6",
+        "type": "ui_text",
+        "z": "886d73d1.63b51",
+        "group": "b34e63f6.b94b88",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Frecuencia Cardiaca: ",
+        "format": "{{msg.payload6}}",
+        "layout": "row-left",
+        "x": 1120,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "92195b9d.588188",
+        "type": "ui_text",
+        "z": "886d73d1.63b51",
+        "group": "b34e63f6.b94b88",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Frecuencia Respiratoria: ",
+        "format": "{{msg.payload7}}",
+        "layout": "row-left",
+        "x": 1130,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "d4b257a9.bd6f5",
+        "type": "ui_text",
+        "z": "886d73d1.63b51",
+        "group": "b34e63f6.b94b88",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Saturación: ",
+        "format": "{{msg.payload11}}",
+        "layout": "row-left",
+        "x": 1090,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "95d3746c.b43ad8",
+        "type": "ui_text",
+        "z": "886d73d1.63b51",
+        "group": "b34e63f6.b94b88",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Sintomas: ",
+        "format": "{{msg.payload10}}",
+        "layout": "row-left",
+        "x": 1340,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "aa3a0ee.623df7",
+        "type": "ui_text",
+        "z": "886d73d1.63b51",
+        "group": "b34e63f6.b94b88",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Medicamento: ",
+        "format": "{{msg.payload11}}",
+        "layout": "row-left",
+        "x": 1360,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "9461d88e.f32b18",
+        "type": "mqtt in",
+        "z": "4a92135b.7efc74",
+        "name": "HiDCliP",
+        "topic": "mqtt/rfid/codigo",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "6c33e57f.4efad4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 70,
+        "y": 140,
+        "wires": [
+            [
+                "47842861.174b3"
+            ]
+        ]
+    },
+    {
+        "id": "a747f35d.1b5848",
+        "type": "function",
+        "z": "4a92135b.7efc74",
+        "name": "",
+        "func": "c=msg.payload.codigo;\nmsg.topic = \"select * from habitos where expediente=\"+c+\";\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 280,
+        "wires": [
+            [
+                "5afe12bd.778914"
+            ]
+        ]
+    },
+    {
+        "id": "5afe12bd.778914",
+        "type": "mysql",
+        "z": "4a92135b.7efc74",
+        "mydb": "658f003a.316868",
+        "name": "",
+        "x": 400,
+        "y": 280,
+        "wires": [
+            [
+                "91d55923.4c8f8"
+            ]
+        ]
+    },
+    {
+        "id": "21aad60.6b52e2a",
+        "type": "function",
+        "z": "4a92135b.7efc74",
+        "name": "",
+        "func": "msg.payload1=msg.payload[0].a;\nmsg.payload2=msg.payload[0].b;\nmsg.payload3=msg.payload[0].c;\nmsg.payload4=msg.payload[0].d;\nmsg.payload5=msg.payload[0].e;\nmsg.payload6=msg.payload[0].f;\nmsg.payload7=msg.payload[0].g;\nmsg.payload8=msg.payload[0].h;\nmsg.payload9=msg.payload[0].expediente;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 280,
+        "wires": [
+            [
+                "5d70d816.4b90d8",
+                "16c54e49.0f463a",
+                "e15047d5.816b18",
+                "ed47e5d2.9d8fb8",
+                "de165108.c66ba",
+                "c65c2a2f.f408d8",
+                "732877c5.79e9c",
+                "731b8d77.37756c",
+                "6b86483d.5178a8",
+                "7b05ae70.b14a28"
+            ]
+        ]
+    },
+    {
+        "id": "47842861.174b3",
+        "type": "json",
+        "z": "4a92135b.7efc74",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "a747f35d.1b5848"
+            ]
+        ]
+    },
+    {
+        "id": "91d55923.4c8f8",
+        "type": "json",
+        "z": "4a92135b.7efc74",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 510,
+        "y": 280,
+        "wires": [
+            [
+                "21aad60.6b52e2a"
+            ]
+        ]
+    },
+    {
+        "id": "7b05ae70.b14a28",
+        "type": "debug",
+        "z": "4a92135b.7efc74",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5d70d816.4b90d8",
+        "type": "ui_text",
+        "z": "4a92135b.7efc74",
+        "group": "f6a0bb0d.f7142",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "a: ",
+        "format": "{{msg.payload1}}",
+        "layout": "row-left",
+        "x": 930,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "16c54e49.0f463a",
+        "type": "ui_text",
+        "z": "4a92135b.7efc74",
+        "group": "f6a0bb0d.f7142",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "b: ",
+        "format": "{{msg.payload2}}",
+        "layout": "row-left",
+        "x": 930,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "e15047d5.816b18",
+        "type": "ui_text",
+        "z": "4a92135b.7efc74",
+        "group": "f6a0bb0d.f7142",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "c: ",
+        "format": "{{msg.payload3}}",
+        "layout": "row-left",
+        "x": 930,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "ed47e5d2.9d8fb8",
+        "type": "ui_text",
+        "z": "4a92135b.7efc74",
+        "group": "f6a0bb0d.f7142",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "d:",
+        "format": "{{msg.payload4}}",
+        "layout": "row-left",
+        "x": 930,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "de165108.c66ba",
+        "type": "ui_text",
+        "z": "4a92135b.7efc74",
+        "group": "f6a0bb0d.f7142",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "e:",
+        "format": "{{msg.payload5}}",
+        "layout": "row-left",
+        "x": 930,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "c65c2a2f.f408d8",
+        "type": "ui_text",
+        "z": "4a92135b.7efc74",
+        "group": "f6a0bb0d.f7142",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "f: ",
+        "format": "{{msg.payload6}}",
+        "layout": "row-left",
+        "x": 930,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "732877c5.79e9c",
+        "type": "ui_text",
+        "z": "4a92135b.7efc74",
+        "group": "f6a0bb0d.f7142",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "g: ",
+        "format": "{{msg.payload7}}",
+        "layout": "row-left",
+        "x": 930,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "731b8d77.37756c",
+        "type": "ui_text",
+        "z": "4a92135b.7efc74",
+        "group": "f6a0bb0d.f7142",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "h:",
+        "format": "{{msg.payload7}}",
+        "layout": "row-left",
+        "x": 930,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "ce09be8c.8a421",
+        "type": "mqtt in",
+        "z": "ed027021.404dc8",
+        "name": "HiDCliP",
+        "topic": "mqtt/rfid/codigo",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "6c33e57f.4efad4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 50,
+        "y": 160,
+        "wires": [
+            [
+                "b93325e1.dfb9d8"
+            ]
+        ]
+    },
+    {
+        "id": "7eb91957.83516",
+        "type": "mysql",
+        "z": "ed027021.404dc8",
+        "mydb": "658f003a.316868",
+        "name": "",
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "1e7a7036.1980a8"
+            ]
+        ]
+    },
+    {
+        "id": "6cf0a698.7ceb98",
+        "type": "function",
+        "z": "ed027021.404dc8",
+        "name": "",
+        "func": "msg.payload1=msg.payload[0].pulso;\nmsg.payload2=msg.payload[0].tension;\nmsg.payload3=msg.payload[0].frecard;\nmsg.payload4=msg.payload[0].frecresp;\nmsg.payload5=msg.payload[0].temp;\nmsg.payload6=msg.payload[0].sat;\nmsg.payload7=msg.payload[0].sintomas;\nmsg.payload8=msg.payload[0].expediente;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 300,
+        "wires": [
+            [
+                "42b731d7.9bca28",
+                "86bb0fd1.561028",
+                "251078ad.22f18",
+                "8808e3dc.50e8d",
+                "3d2fce4c.7102c2",
+                "aea012dc.36a3a",
+                "40ef556a.0c7dac",
+                "7553b898.8310d",
+                "f63f2a63.27687"
+            ]
+        ]
+    },
+    {
+        "id": "b93325e1.dfb9d8",
+        "type": "json",
+        "z": "ed027021.404dc8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 250,
+        "y": 160,
+        "wires": [
+            [
+                "dbf6a7b5.8f2af8"
+            ]
+        ]
+    },
+    {
+        "id": "1e7a7036.1980a8",
+        "type": "json",
+        "z": "ed027021.404dc8",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 290,
+        "y": 300,
+        "wires": [
+            [
+                "6cf0a698.7ceb98"
+            ]
+        ]
+    },
+    {
+        "id": "7553b898.8310d",
+        "type": "debug",
+        "z": "ed027021.404dc8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "42b731d7.9bca28",
+        "type": "ui_text",
+        "z": "ed027021.404dc8",
+        "group": "1e63a92e.453e17",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Pulso: ",
+        "format": "{{msg.payload1}}",
+        "layout": "row-left",
+        "x": 650,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "86bb0fd1.561028",
+        "type": "ui_text",
+        "z": "ed027021.404dc8",
+        "group": "1e63a92e.453e17",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Tension: ",
+        "format": "{{msg.payload2}}",
+        "layout": "row-left",
+        "x": 660,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "251078ad.22f18",
+        "type": "ui_text",
+        "z": "ed027021.404dc8",
+        "group": "1e63a92e.453e17",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Frecuencia Cardiaca: ",
+        "format": "{{msg.payload3}}",
+        "layout": "row-left",
+        "x": 700,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "8808e3dc.50e8d",
+        "type": "ui_text",
+        "z": "ed027021.404dc8",
+        "group": "1e63a92e.453e17",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Frecuencia Respiratoria: ",
+        "format": "{{msg.payload4}}",
+        "layout": "row-left",
+        "x": 710,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "3d2fce4c.7102c2",
+        "type": "ui_text",
+        "z": "ed027021.404dc8",
+        "group": "1e63a92e.453e17",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Saturación: ",
+        "format": "{{msg.payload6}}",
+        "layout": "row-left",
+        "x": 670,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "aea012dc.36a3a",
+        "type": "ui_text",
+        "z": "ed027021.404dc8",
+        "group": "1e63a92e.453e17",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Sintomas: ",
+        "format": "{{msg.payload7}}",
+        "layout": "row-left",
+        "x": 660,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "ecb46fec.503ae8",
+        "type": "mqtt in",
+        "z": "49d0ee63.fe1fd8",
+        "name": "HiDCliP",
+        "topic": "mqtt/rfid/codigo",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "6c33e57f.4efad4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 50,
+        "y": 140,
+        "wires": [
+            [
+                "63729382.a955a4"
+            ]
+        ]
+    },
+    {
+        "id": "4d302b1a.b70b5c",
+        "type": "function",
+        "z": "49d0ee63.fe1fd8",
+        "name": "",
+        "func": "c=msg.payload.codigo;\nmsg.topic = \"select * from hist_clinic where expediente=\"+c+\";\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 280,
+        "wires": [
+            [
+                "55f667a5.e0ae48"
+            ]
+        ]
+    },
+    {
+        "id": "55f667a5.e0ae48",
+        "type": "mysql",
+        "z": "49d0ee63.fe1fd8",
+        "mydb": "658f003a.316868",
+        "name": "",
+        "x": 380,
+        "y": 280,
+        "wires": [
+            [
+                "27e6e781.591228"
+            ]
+        ]
+    },
+    {
+        "id": "84c2eb69.e269a8",
+        "type": "function",
+        "z": "49d0ee63.fe1fd8",
+        "name": "",
+        "func": "msg.payload3=msg.payload[0].expediente;\nmsg.payload1=msg.payload[0].fecha;\nmsg.payload2=msg.payload[0].num_receta;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 280,
+        "wires": [
+            [
+                "46bc8b0f.afb334",
+                "fb7ed017.ec5878",
+                "afbc1d5e.4627d",
+                "5d5f0abb.3d8e6c"
+            ]
+        ]
+    },
+    {
+        "id": "63729382.a955a4",
+        "type": "json",
+        "z": "49d0ee63.fe1fd8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 110,
+        "y": 280,
+        "wires": [
+            [
+                "4d302b1a.b70b5c"
+            ]
+        ]
+    },
+    {
+        "id": "27e6e781.591228",
+        "type": "json",
+        "z": "49d0ee63.fe1fd8",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 490,
+        "y": 280,
+        "wires": [
+            [
+                "84c2eb69.e269a8"
+            ]
+        ]
+    },
+    {
+        "id": "afbc1d5e.4627d",
+        "type": "debug",
+        "z": "49d0ee63.fe1fd8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "46bc8b0f.afb334",
+        "type": "ui_text",
+        "z": "49d0ee63.fe1fd8",
+        "group": "eff4c308.a4587",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Fecha: ",
+        "format": "{{msg.payload1}}",
+        "layout": "row-left",
+        "x": 820,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "fb7ed017.ec5878",
+        "type": "ui_text",
+        "z": "49d0ee63.fe1fd8",
+        "group": "eff4c308.a4587",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Numero de Receta:",
+        "format": "{{msg.payload2}}",
+        "layout": "row-left",
+        "x": 860,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "dbf6a7b5.8f2af8",
+        "type": "function",
+        "z": "ed027021.404dc8",
+        "name": "",
+        "func": "c=msg.payload.codigo;\nmsg.topic = \"select * from cuadroc where expediente=\"+c+\";\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 160,
+        "wires": [
+            [
+                "7eb91957.83516"
+            ]
+        ]
+    },
+    {
+        "id": "c7fd2879.edc5d8",
+        "type": "ui_text",
+        "z": "5ae0227b.e338ac",
+        "group": "ebcfb998.e4e268",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Numero de expediente:",
+        "format": "{{msg.payload1}}",
+        "layout": "row-spread",
+        "x": 1390,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "1479f060.ce43e8",
+        "type": "ui_text",
+        "z": "c76fa8d.227b3d8",
+        "group": "6d67e18a.861b1",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Número de expediente:",
+        "format": "{{msg.payload3}}",
+        "layout": "row-left",
+        "x": 890,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "ede03fb3.4c3058",
+        "type": "ui_text",
+        "z": "4525c894.b6e23",
+        "group": "da1ae676.f225a8",
+        "order": 8,
+        "width": "5",
+        "height": "1",
+        "name": "",
+        "label": "Numero de expediente:",
+        "format": "{{msg.payload9}}",
+        "layout": "row-left",
+        "x": 970,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "ec8ada26.95676",
+        "type": "ui_text",
+        "z": "608e3f40.526fc8",
+        "group": "a5f489a9.4f5638",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Número de expediente:",
+        "format": "{{msg.payload6}}",
+        "layout": "row-left",
+        "x": 870,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "93b5a9c0.889ae8",
+        "type": "ui_text",
+        "z": "7f0fe47f.e965c4",
+        "group": "c5460234.6c4488",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Número de expediente:",
+        "format": "{{msg.payload10}}",
+        "layout": "row-spread",
+        "x": 870,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "136a5046.12d878",
+        "type": "ui_text",
+        "z": "886d73d1.63b51",
+        "group": "b34e63f6.b94b88",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Número de expediente:",
+        "format": "{{msg.payload12}}",
+        "layout": "row-spread",
+        "x": 1390,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "40ef556a.0c7dac",
+        "type": "ui_text",
+        "z": "ed027021.404dc8",
+        "group": "1e63a92e.453e17",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Número de expediente:",
+        "format": "{{msg.payload8}}",
+        "layout": "row-spread",
+        "x": 710,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "6b86483d.5178a8",
+        "type": "ui_text",
+        "z": "4a92135b.7efc74",
+        "group": "f6a0bb0d.f7142",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Número de expediente:",
+        "format": "{{msg.payload9}}",
+        "layout": "row-spread",
+        "x": 990,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "5d5f0abb.3d8e6c",
+        "type": "ui_text",
+        "z": "49d0ee63.fe1fd8",
+        "group": "eff4c308.a4587",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Número de expediente:",
+        "format": "{{msg.payload3}}",
+        "layout": "row-left",
+        "x": 890,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b695b1fe.a75fb",
+        "type": "ui_gauge",
+        "z": "5ae0227b.e338ac",
+        "name": "",
+        "group": "ebcfb998.e4e268",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperatura",
+        "label": "°C",
+        "format": "{{msg.payload10}}",
+        "min": "34",
+        "max": "48",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1110,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "f63f2a63.27687",
+        "type": "ui_gauge",
+        "z": "ed027021.404dc8",
+        "name": "",
+        "group": "1e63a92e.453e17",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperatura",
+        "label": "°C",
+        "format": "{{msg.payload5}}",
+        "min": "34",
+        "max": "48",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 670,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "9c39205.f69756",
+        "type": "ui_gauge",
+        "z": "886d73d1.63b51",
+        "name": "",
+        "group": "b34e63f6.b94b88",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperatura",
+        "label": "°C",
+        "format": "{{msg.payload8}}",
+        "min": "34",
+        "max": "48",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1090,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "20ae6195.ce327e",
+        "type": "ui_text",
+        "z": "7f0fe47f.e965c4",
+        "group": "c5460234.6c4488",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Lugar:",
+        "format": "{{msg.payload6}}",
+        "layout": "row-spread",
+        "x": 810,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "bc7248b7.26313",
+        "type": "ui_text",
+        "z": "7f0fe47f.e965c4",
+        "group": "c5460234.6c4488",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Peso:",
+        "format": "{{msg.payload7}}",
+        "layout": "row-spread",
+        "x": 810,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "7471437b.74c5a4",
+        "type": "ui_text",
+        "z": "7f0fe47f.e965c4",
+        "group": "c5460234.6c4488",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Necesidad de anestecia:",
+        "format": "{{msg.payload8}}",
+        "layout": "row-spread",
+        "x": 870,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "2e2c8cb.38023f4",
+        "type": "ui_text",
+        "z": "7f0fe47f.e965c4",
+        "group": "c5460234.6c4488",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Placenta",
+        "format": "{{msg.payload9}}",
+        "layout": "row-spread",
+        "x": 820,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "69c218e6.aac3b8",
+        "type": "ui_form",
+        "z": "d1d045c0.1e6c08",
+        "name": "",
+        "label": "Ficha del paciente",
+        "group": "6a1474ed.873cc4",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Numero de Expediente",
+                "value": "expediente",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Numero del Seguro Social",
+                "value": "nss",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Total de Visitas",
+                "value": "visitas",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "SOS",
+                "value": "SOS",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Discapacidad",
+                "value": "discapacidad",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "expediente": "",
+            "nss": "",
+            "visitas": "",
+            "SOS": "",
+            "discapacidad": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "69b17ed9.3910e",
+                "6b8317e4.a4bce"
+            ]
+        ]
+    },
+    {
+        "id": "69b17ed9.3910e",
+        "type": "debug",
+        "z": "d1d045c0.1e6c08",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 230,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "6b8317e4.a4bce",
+        "type": "function",
+        "z": "d1d045c0.1e6c08",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO ficha VALUES(\"+msg.payload.expediente+\",\"+msg.payload.nss+\",\"+msg.payload.visitas+\",'\"+msg.payload.SOS+\"','\"+msg.payload.discapacidad+\"');\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 220,
+        "wires": [
+            [
+                "a04c5bf9.de4188",
+                "3ca0c35.d2ede3c"
+            ]
+        ]
+    },
+    {
+        "id": "a04c5bf9.de4188",
+        "type": "debug",
+        "z": "d1d045c0.1e6c08",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3ca0c35.d2ede3c",
+        "type": "mysql",
+        "z": "d1d045c0.1e6c08",
+        "mydb": "d00e7f9e.9e4328",
+        "name": "",
+        "x": 600,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "60813e0f.e0671",
+        "type": "ui_form",
+        "z": "f80f9166.63f7e8",
+        "name": "",
+        "label": "PACIENTE",
+        "group": "6a1474ed.873cc4",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Numero de Expediente",
+                "value": "ne",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Nombre",
+                "value": "nombre",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Apellido",
+                "value": "apellido",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Peso",
+                "value": "peso",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Fecha de nacimiento",
+                "value": "nacimiento",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Estatura",
+                "value": "estatura",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "GS",
+                "value": "gs",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Actividad",
+                "value": "actividad",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "ne": "",
+            "nombre": "",
+            "apellido": "",
+            "peso": "",
+            "nacimiento": "",
+            "estatura": "",
+            "gs": "",
+            "actividad": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 150,
+        "y": 200,
+        "wires": [
+            [
+                "82fae7c4.c18558",
+                "19499907.226177"
+            ]
+        ]
+    },
+    {
+        "id": "82fae7c4.c18558",
+        "type": "debug",
+        "z": "f80f9166.63f7e8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 250,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "19499907.226177",
+        "type": "function",
+        "z": "f80f9166.63f7e8",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO pacientes VALUES('\"+msg.payload.ne+\"','\"+msg.payload.nombre+\"','\"+msg.payload.apellido+\"',\"+msg.payload.peso+\",\"+msg.payload.estatura+\",'\"+msg.payload.nacimiento+\"','\"+msg.payload.gs+\"','\"+msg.payload.actividad+\"');\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 200,
+        "wires": [
+            [
+                "77d4e9eb.fa419",
+                "df6dae27.6cb3b"
+            ]
+        ]
+    },
+    {
+        "id": "77d4e9eb.fa419",
+        "type": "debug",
+        "z": "f80f9166.63f7e8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "df6dae27.6cb3b",
+        "type": "mysql",
+        "z": "f80f9166.63f7e8",
+        "mydb": "d00e7f9e.9e4328",
+        "name": "",
+        "x": 620,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "34adbc17.eb019c",
+        "type": "ui_form",
+        "z": "8b234aea.32948",
+        "name": "",
+        "label": "Ficha médica actual",
+        "group": "6a1474ed.873cc4",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Tratamiento",
+                "value": "tratamiento",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Fecha",
+                "value": "fecha",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Peso",
+                "value": "peso",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Estatura",
+                "value": "estatura",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Pulso (pmm)",
+                "value": "pulso",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Tension(MMHg)",
+                "value": "tension",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "F.Cardiaca/mín",
+                "value": "frecard",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "F.Respiratoria/mín",
+                "value": "frecresp",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Temperatura",
+                "value": "temp",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Saturación",
+                "value": "sat",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Sintomas",
+                "value": "sintomas",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Medicamento",
+                "value": "medicamoento",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Número de expediente",
+                "value": "expediente",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "tratamiento": "",
+            "fecha": "",
+            "peso": "",
+            "estatura": "",
+            "pulso": "",
+            "tension": "",
+            "frecard": "",
+            "frecresp": "",
+            "temp": "",
+            "sat": "",
+            "sintomas": "",
+            "medicamoento": "",
+            "expediente": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 290,
+        "y": 260,
+        "wires": [
+            [
+                "4997f634.e09a1",
+                "e85fb79e.f7ba58"
+            ]
+        ]
+    },
+    {
+        "id": "4997f634.e09a1",
+        "type": "function",
+        "z": "8b234aea.32948",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO ficha_med_act VALUES('\"+msg.payload.tratamiento+\"',\"+msg.payload.fecha+\",\"+msg.payload.peso+\",\"+msg.payload.estatura+\",\"+msg.payload.pulso+\",\"+msg.payload.tension+\",\"+msg.payload.frecard+\",\"+msg.payload.frecresp+\",\"+msg.payload.temp+\",\"+msg.payload.sat+\",'\"+msg.payload.sintomas+\"','\"+msg.payload.medicamento+\"',\"+msg.payload.expediente+\");\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 260,
+        "wires": [
+            [
+                "dbb4f379.795bd8",
+                "188dfb0d.44a7f5"
+            ]
+        ]
+    },
+    {
+        "id": "188dfb0d.44a7f5",
+        "type": "debug",
+        "z": "8b234aea.32948",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "e85fb79e.f7ba58",
+        "type": "debug",
+        "z": "8b234aea.32948",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "dbb4f379.795bd8",
+        "type": "mysql",
+        "z": "8b234aea.32948",
+        "mydb": "d00e7f9e.9e4328",
+        "name": "",
+        "x": 740,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e4ab5c7f.6ce99",
+        "type": "ui_form",
+        "z": "d73210b9.9de0f8",
+        "name": "",
+        "label": "Consulta",
+        "group": "6a1474ed.873cc4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Fecha",
+                "value": "fecha",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Peso",
+                "value": "peso",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Estatura",
+                "value": "estatura",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Pulso (ppm)",
+                "value": "pulso",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Tension (mmHg)",
+                "value": "tension",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "F.Cardiaca/mín",
+                "value": "frecard",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "F.Respiratoria/mín",
+                "value": "frecresp",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Temperatura (°C)",
+                "value": "temp",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Saturación",
+                "value": "sat",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Síntomas",
+                "value": "sintomas",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Medicamentos",
+                "value": "medicamento",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Número de expediente",
+                "value": "expediente",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "fecha": "",
+            "peso": "",
+            "estatura": "",
+            "pulso": "",
+            "tension": "",
+            "frecard": "",
+            "frecresp": "",
+            "temp": "",
+            "sat": "",
+            "sintomas": "",
+            "medicamento": "",
+            "expediente": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 270,
+        "y": 320,
+        "wires": [
+            [
+                "54b92490.3147bc",
+                "8c1053bc.65ca8"
+            ]
+        ]
+    },
+    {
+        "id": "54b92490.3147bc",
+        "type": "function",
+        "z": "d73210b9.9de0f8",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO consulta VALUES(\"+msg.payload.fecha+\",\"+msg.payload.peso+\",\"+msg.payload.estatura+\",\"+msg.payload.pulso+\",\"+msg.payload.tension+\",\"+msg.payload.frecard+\",\"+msg.payload.frecresp+\",\"+msg.payload.temp+\",\"+msg.payload.sat+\",'\"+msg.payload.sintomas+\"','\"+msg.payload.medicamento+\"','\"+msg.payload.expediente+\"');\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 320,
+        "wires": [
+            [
+                "b11e1015.d3d3a",
+                "34e34e23.1e722a"
+            ]
+        ]
+    },
+    {
+        "id": "b11e1015.d3d3a",
+        "type": "mysql",
+        "z": "d73210b9.9de0f8",
+        "mydb": "d00e7f9e.9e4328",
+        "name": "",
+        "x": 710,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "34e34e23.1e722a",
+        "type": "debug",
+        "z": "d73210b9.9de0f8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8c1053bc.65ca8",
+        "type": "debug",
+        "z": "d73210b9.9de0f8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "69a52699.a5a83",
+        "type": "ui_form",
+        "z": "c27f91f1.1a769",
+        "name": "",
+        "label": "Cuadro clínico",
+        "group": "6a1474ed.873cc4",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Pulso (ppm)",
+                "value": "pulso",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Tension(mmHg)",
+                "value": "tension",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "F.Cardiaca",
+                "value": "frecard",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "F.Respiración",
+                "value": "frecresp",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Temperatura",
+                "value": "temp",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Saturación",
+                "value": "sat",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Síntomas",
+                "value": "sintomas",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Número de expediente",
+                "value": "expediente",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "pulso": "",
+            "tension": "",
+            "frecard": "",
+            "frecresp": "",
+            "temp": "",
+            "sat": "",
+            "sintomas": "",
+            "expediente": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 190,
+        "y": 220,
+        "wires": [
+            [
+                "b409db8.d017428",
+                "322f9197.4fb37e"
+            ]
+        ]
+    },
+    {
+        "id": "322f9197.4fb37e",
+        "type": "function",
+        "z": "c27f91f1.1a769",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO cuadroc VALUES(\"+msg.payload.pulso+\",\"+msg.payload.tension+\",\"+msg.payload.frecard+\",\"+msg.payload.frecresp+\",\"+msg.payload.temp+\",\"+msg.payload.sat+\",'\"+msg.payload.sintomas+\"',\"+msg.payload.expediente+\");\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 220,
+        "wires": [
+            [
+                "2839491c.cef316",
+                "fed25f46.5fda9"
+            ]
+        ]
+    },
+    {
+        "id": "fed25f46.5fda9",
+        "type": "debug",
+        "z": "c27f91f1.1a769",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b409db8.d017428",
+        "type": "debug",
+        "z": "c27f91f1.1a769",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "2839491c.cef316",
+        "type": "mysql",
+        "z": "c27f91f1.1a769",
+        "mydb": "d00e7f9e.9e4328",
+        "name": "",
+        "x": 660,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "32bfcf4f.b6e008",
+        "type": "ui_form",
+        "z": "a69b2148.764498",
+        "name": "",
+        "label": "Adicciones, alergias y/o hábitos",
+        "group": "6a1474ed.873cc4",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "+",
+                "value": "a",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "b",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "c",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "d",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "e",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "f",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "g",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "h",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Número de expediente",
+                "value": "expediente",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": "",
+            "e": "",
+            "f": "",
+            "g": "",
+            "h": "",
+            "expediente": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "766fbaa9.ade58c",
+                "69ebcb4d.5e552c"
+            ]
+        ]
+    },
+    {
+        "id": "766fbaa9.ade58c",
+        "type": "function",
+        "z": "a69b2148.764498",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO habitos VALUES('\"+msg.payload.a+\"','\"+msg.payload.b+\"','\"+msg.payload.c+\"','\"+msg.payload.d+\"','\"+msg.payload.e+\"','\"+msg.payload.f+\"','\"+msg.payload.g+\"','\"+msg.payload.h+\"',\"+msg.payload.expediente+\");\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 200,
+        "wires": [
+            [
+                "8b94f1be.57c5d",
+                "ff1d0a46.bd3e8"
+            ]
+        ]
+    },
+    {
+        "id": "8b94f1be.57c5d",
+        "type": "mysql",
+        "z": "a69b2148.764498",
+        "mydb": "d00e7f9e.9e4328",
+        "name": "",
+        "x": 700,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "69ebcb4d.5e552c",
+        "type": "debug",
+        "z": "a69b2148.764498",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "ff1d0a46.bd3e8",
+        "type": "debug",
+        "z": "a69b2148.764498",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "f23f0d41.e8fa",
+        "type": "ui_form",
+        "z": "fb0b5d08.b47d38",
+        "name": "",
+        "label": "Antecedentes familiares",
+        "group": "6a1474ed.873cc4",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "+",
+                "value": "a",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "b",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "c",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "d",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "e",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "f",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "g",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "+",
+                "value": "h",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Número de expediente",
+                "value": "expediente",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": "",
+            "e": "",
+            "f": "",
+            "g": "",
+            "h": "",
+            "expediente": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 110,
+        "y": 180,
+        "wires": [
+            [
+                "9463894.380d578",
+                "cb884899.6e0218"
+            ]
+        ]
+    },
+    {
+        "id": "9463894.380d578",
+        "type": "function",
+        "z": "fb0b5d08.b47d38",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO ant_familiares VALUES('\"+msg.payload.a+\"','\"+msg.payload.b+\"','\"+msg.payload.c+\"','\"+msg.payload.d+\"','\"+msg.payload.e+\"','\"+msg.payload.f+\"','\"+msg.payload.g+\"','\"+msg.payload.h+\"',\"+msg.payload.expediente+\");\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 180,
+        "wires": [
+            [
+                "8305b841.623328",
+                "2e187ba2.58e2d4"
+            ]
+        ]
+    },
+    {
+        "id": "8305b841.623328",
+        "type": "mysql",
+        "z": "fb0b5d08.b47d38",
+        "mydb": "d00e7f9e.9e4328",
+        "name": "",
+        "x": 540,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2e187ba2.58e2d4",
+        "type": "debug",
+        "z": "fb0b5d08.b47d38",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "cb884899.6e0218",
+        "type": "debug",
+        "z": "fb0b5d08.b47d38",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "4f8f9ee1.7befd",
+        "type": "ui_form",
+        "z": "f7d38616.0d5108",
+        "name": "",
+        "label": "Antecedentes neonatales",
+        "group": "6a1474ed.873cc4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "COLOR",
+                "value": "COLOR",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "FC",
+                "value": "FC",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "IRRATIBILIDAD REFLEJA",
+                "value": "IRRATIBILIDADREFLEJA",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "TONO MUSCULAR",
+                "value": "TONOMUSCULAR",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "RESPIRACIÓN",
+                "value": " RESPIRACION",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Número de expediente",
+                "value": "expediente",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "COLOR": "",
+            "FC": "",
+            "IRRATIBILIDADREFLEJA": "",
+            "TONOMUSCULAR": "",
+            " RESPIRACION": "",
+            "expediente": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 110,
+        "y": 140,
+        "wires": [
+            [
+                "d9e278c1.1095f",
+                "de5afd38.b02d08"
+            ]
+        ]
+    },
+    {
+        "id": "d9e278c1.1095f",
+        "type": "function",
+        "z": "f7d38616.0d5108",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO ant_neonatales VALUES('\"+msg.payload.COLOR+\"','\"+msg.payload.FC+\"','\"+msg.payload.IRRATIBILIDADREFLEJA+\"','\"+msg.payload.TONOMUSCULAR+\"','\"+msg.payload.RESPIRACION+\"','\"+msg.payload.expediente+\"');\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 140,
+        "wires": [
+            [
+                "d86d34d5.b0fb58",
+                "5e213f03.85df1"
+            ]
+        ]
+    },
+    {
+        "id": "d86d34d5.b0fb58",
+        "type": "mysql",
+        "z": "f7d38616.0d5108",
+        "mydb": "d00e7f9e.9e4328",
+        "name": "",
+        "x": 520,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5e213f03.85df1",
+        "type": "debug",
+        "z": "f7d38616.0d5108",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "de5afd38.b02d08",
+        "type": "debug",
+        "z": "f7d38616.0d5108",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "21cf4e.14ad88b2",
+        "type": "ui_form",
+        "z": "8702c681.a81aa",
+        "name": "",
+        "label": "Antecedentes Perinatales",
+        "group": "6a1474ed.873cc4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Antecedentes negados",
+                "value": "Antecedentes_negados ",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Ultimo ciclo menstrual",
+                "value": "Ultimo_ciclo_menstrual ",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Duración ciclo menstrual",
+                "value": "Duración_ciclo ",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Concepción",
+                "value": "Concepción ",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Duración concepción",
+                "value": "Duracion",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Lugar",
+                "value": "Lugar",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Peso",
+                "value": "Peso",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Necesidad tipo anestesia ",
+                "value": "Necesidad_tipo_Anestesia ",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Placenta",
+                "value": "Placenta",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Número de expediente",
+                "value": "expediente",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "Antecedentes_negados ": "",
+            "Ultimo_ciclo_menstrual ": "",
+            "Duración_ciclo ": "",
+            "Concepción ": "",
+            "Duracion": "",
+            "Lugar": "",
+            "Peso": "",
+            "Necesidad_tipo_Anestesia ": "",
+            "Placenta": "",
+            "expediente": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 130,
+        "y": 120,
+        "wires": [
+            [
+                "8526d9a0.26526",
+                "cd5b95d7.a21ba8"
+            ]
+        ]
+    },
+    {
+        "id": "8526d9a0.26526",
+        "type": "function",
+        "z": "8702c681.a81aa",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO ant_perinatales VALUES('\"+msg.payload.Antecedentes_negados+\"','\"+msg.payload.Ultimo_ciclo_menstrual+\"','\"+msg.payload.Duración_ciclo+\"','\"+msg.payload.Concepción+\"','\"+msg.payload.Duracion+\"','\"+msg.payload.Lugar+\"','\"+msg.payload.Peso+\"','\"+msg.payload.Necesidad_tipo_Anestesia+\"','\"+msg.payload.placenta+\"','\"+msg.payload.expediente+\"');\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 120,
+        "wires": [
+            [
+                "dbbe0443.35122",
+                "491409b6.b282f"
+            ]
+        ]
+    },
+    {
+        "id": "dbbe0443.35122",
+        "type": "mysql",
+        "z": "8702c681.a81aa",
+        "mydb": "d00e7f9e.9e4328",
+        "name": "",
+        "x": 660,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "491409b6.b282f",
+        "type": "debug",
+        "z": "8702c681.a81aa",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "cd5b95d7.a21ba8",
+        "type": "debug",
+        "z": "8702c681.a81aa",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "502c9c20.5c819c",
+        "type": "ui_form",
+        "z": "8306cacd.ee163",
+        "name": "",
+        "label": "Apartado Administrativo",
+        "group": "6a1474ed.873cc4",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Carta de consentimiento",
+                "value": "CC",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Contactos de emergencia (Nombre, Numeros telefonicos,correo electrónico,telegram)",
+                "value": "SOS",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Número de expediente",
+                "value": "expediente",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "CC": "",
+            "SOS": "",
+            "expediente": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "16976202.dfce76",
+                "e95782b5.e22bd"
+            ]
+        ]
+    },
+    {
+        "id": "16976202.dfce76",
+        "type": "function",
+        "z": "8306cacd.ee163",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO AA VALUES('\"+msg.payload.CC+\"','\"+msg.payload.SOS+\"','\"+msg.payload.expediente+\"');\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 100,
+        "wires": [
+            [
+                "f769a4a6.882678",
+                "cd02aacf.cc4c5"
+            ]
+        ]
+    },
+    {
+        "id": "f769a4a6.882678",
+        "type": "mysql",
+        "z": "8306cacd.ee163",
+        "mydb": "d00e7f9e.9e4328",
+        "name": "",
+        "x": 600,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cd02aacf.cc4c5",
+        "type": "debug",
+        "z": "8306cacd.ee163",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "e95782b5.e22bd",
+        "type": "debug",
+        "z": "8306cacd.ee163",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "6737f09a.e4efc",
+        "type": "ui_form",
+        "z": "8701b86b.8ef8d",
+        "name": "",
+        "label": "Historial Clínico",
+        "group": "6a1474ed.873cc4",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Fecha:",
+                "value": "fecha",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Número de receta:",
+                "value": "num_receta",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Expediente:",
+                "value": "expediente",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "fecha": "",
+            "num_receta": "",
+            "expediente": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 310,
+        "y": 180,
+        "wires": [
+            [
+                "b48b8dde.62f79"
+            ]
+        ]
+    },
+    {
+        "id": "b48b8dde.62f79",
+        "type": "function",
+        "z": "8701b86b.8ef8d",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO hist_clinic VALUES('\"+msg.payload.fecha+\"','\"+msg.payload.num_receta+\"','\"+msg.payload.expediente+\"');\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 180,
+        "wires": [
+            [
+                "2c9e9a56.9e8c5e",
+                "e169356d.1ce448"
+            ]
+        ]
+    },
+    {
+        "id": "2c9e9a56.9e8c5e",
+        "type": "mysql",
+        "z": "8701b86b.8ef8d",
+        "mydb": "d00e7f9e.9e4328",
+        "name": "",
+        "x": 780,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e169356d.1ce448",
+        "type": "debug",
+        "z": "8701b86b.8ef8d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "1f8a25fb.f13e5a",
+        "type": "mqtt in",
+        "z": "d89221e2.767c2",
+        "name": "HiDCliP",
+        "topic": "mqtt/rfid/temp",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "6c33e57f.4efad4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 90,
+        "y": 100,
+        "wires": [
+            [
+                "58a438ae.7259d",
+                "34487f17.f35138"
+            ]
+        ]
+    },
+    {
+        "id": "58a438ae.7259d",
+        "type": "json",
+        "z": "d89221e2.767c2",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 250,
+        "y": 100,
+        "wires": [
+            [
+                "3b0e8e10.baf96a",
+                "baeb5107.516ee8",
+                "6b863d71.9f08e4",
+                "3778f149.5a7256"
+            ]
+        ]
+    },
+    {
+        "id": "3b0e8e10.baf96a",
+        "type": "function",
+        "z": "d89221e2.767c2",
+        "name": "",
+        "func": "msg.payload=msg.payload.Temperatura;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 60,
+        "wires": [
+            [
+                "86653c90.a0b96"
+            ]
+        ]
+    },
+    {
+        "id": "baeb5107.516ee8",
+        "type": "function",
+        "z": "d89221e2.767c2",
+        "name": "",
+        "func": "temp = msg.payload.Temperatura;\nexp=msg.payload.codigo;\nmsg.topic=\"update consulta set temp = \"+temp+\" where expediente='\"+exp+\"';\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 120,
+        "wires": [
+            [
+                "57f15be5.cc8d04"
+            ]
+        ]
+    },
+    {
+        "id": "86653c90.a0b96",
+        "type": "debug",
+        "z": "d89221e2.767c2",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "57f15be5.cc8d04",
+        "type": "mysql",
+        "z": "d89221e2.767c2",
+        "mydb": "d00e7f9e.9e4328",
+        "name": "",
+        "x": 720,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "34487f17.f35138",
+        "type": "mqtt out",
+        "z": "d89221e2.767c2",
+        "name": "",
+        "topic": "mqtt/rfid/codigo",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "6c33e57f.4efad4",
+        "x": 280,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "6b863d71.9f08e4",
+        "type": "function",
+        "z": "d89221e2.767c2",
+        "name": "",
+        "func": "temp = msg.payload.Temperatura;\nexp=msg.payload.codigo;\nmsg.topic=\"update cuadroc set temp = \"+temp+\" where expediente='\"+exp+\"';\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 180,
+        "wires": [
+            [
+                "57f15be5.cc8d04"
+            ]
+        ]
+    },
+    {
+        "id": "3778f149.5a7256",
+        "type": "function",
+        "z": "d89221e2.767c2",
+        "name": "",
+        "func": "temp = msg.payload.Temperatura;\nexp=msg.payload.codigo;\nmsg.topic=\"update ficha_med_act set temp = \"+temp+\" where expediente='\"+exp+\"';\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 240,
+        "wires": [
+            [
+                "57f15be5.cc8d04"
+            ]
+        ]
+    }
+]
